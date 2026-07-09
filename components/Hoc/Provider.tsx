@@ -1,8 +1,11 @@
 import React from 'react'
+import { ThemeProvider } from 'next-themes'
 
-const Provider = () => {
+const Provider = ({ children }: { children: React.ReactNode }) => {
   return (
-    <div>Provider</div>
+    <ThemeProvider>
+      {children}
+    </ThemeProvider>
   )
 }
 
