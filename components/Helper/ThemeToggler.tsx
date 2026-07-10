@@ -19,8 +19,12 @@ const ThemeToggler = () => {
     const currentTheme = theme === "system" ? systemTheme : theme;
 
 
+
   return (
-    <div>ThemeToggler</div>
+    <button onClick={() => setTheme(currentTheme === "light" ? "dark" : "light")}
+        className=""
+    >
+    </button>
   )
 }
 
