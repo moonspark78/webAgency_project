@@ -22,7 +22,7 @@ const ThemeToggler = () => {
 
   return (
     <button onClick={() => setTheme(currentTheme === "light" ? "dark" : "light")}
-        className=""
+        className="p-2 transition w-10 h-10 cursor-pointer bg-white rounded-full"
     >
     </button>
   )
