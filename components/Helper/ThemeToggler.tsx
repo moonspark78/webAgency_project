@@ -13,6 +13,10 @@ const ThemeToggler = () => {
         };
         mountCheck();
     },[])
+
+    if (!mounted) return null;
+
+
   return (
     <div>ThemeToggler</div>
   )
