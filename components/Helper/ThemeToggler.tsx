@@ -10,7 +10,8 @@ const ThemeToggler = () => {
     useEffect(() => {
         const mountCheck = () => {
             setMounted(true);
-        }
+        };
+        mountCheck();
     },[])
   return (
     <div>ThemeToggler</div>
