@@ -8,7 +8,9 @@ const ThemeToggler = () => {
     const {theme, setTheme, systemTheme} = useTheme()
 
     useEffect(() => {
-        const mountCheck = () => {}
+        const mountCheck = () => {
+            setMounted(true);
+        }
     },[])
   return (
     <div>ThemeToggler</div>
