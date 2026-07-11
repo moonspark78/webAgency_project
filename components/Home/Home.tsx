@@ -3,7 +3,6 @@
 const Home = () => {
   return (
     <div className="overflow-hidden">
-   home
     </div>
   )
 }
