@@ -3,7 +3,7 @@ export const NAVLINKS = [
     {id: 2, url: "#", label: "Features"},
     {id: 3, url: "#", label: "Services"},
     {id: 4, url: "#", label: "Rewiews"},
-    {id: 6, url: "#", label: "Blog"},
-    {id: , url: "#", label: "Careers"},
+    {id: 6, url: "#", label: "Team"},
+    {id: , url: "#", label: "Pricing"},
     {id: 7, url: "#", label: "Contact"},
 ]
