@@ -1,6 +1,7 @@
 "use client"
 import {useState, useEffect} from 'react'
 import {useTheme} from 'next-themes'
+import { BiSun } from 'react-icons/bi'
 
 const ThemeToggler = () => {
     const [mounted, setMounted] = useState(false)
@@ -21,9 +22,12 @@ const ThemeToggler = () => {
 
 
   return (
-    <button onClick={() => setTheme(currentTheme === "light" ? "dark" : "light")}
+    <button onClick={() => setTheme(currentTheme === "dark" ? "light" : "dark")}
         className="p-2 transition w-10 h-10 cursor-pointer bg-white rounded-full flex flex-col items-center justify-center"
     >
+        {currentTheme === "dark" ? (
+            <BiSun className="cursor-pointer"/>
+        )}
     </button>
   )
 }
