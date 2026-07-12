@@ -7,6 +7,9 @@ const Logo = () => {
         <div className="w-10 h-10 bg-white rounded-full flex items-center justify-center flex-col">
             <CgWebsite className="w-6 h-6 text-black"/>
         </div>
+        <h1>
+            WebDev
+        </h1>
     </div>
   )
 }
