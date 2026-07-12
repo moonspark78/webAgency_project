@@ -2,7 +2,9 @@ import React from 'react'
 
 const Logo = () => {
   return (
-    <div>Logo</div>
+    <div className="flex items-center space-x-2">
+
+    </div>
   )
 }
 
