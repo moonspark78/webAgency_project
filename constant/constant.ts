@@ -1,9 +1,10 @@
 export const NAVLINKS = [
-    {id: 1, url: "#", label: "Home"},
+    {id: 1, url: "/", label: "Home"},
     {id: 2, url: "#", label: "Features"},
     {id: 3, url: "#", label: "Services"},
     {id: 4, url: "#", label: "Rewiews"},
     {id: 5, url: "#", label: "Team"},
     {id: 6, url: "#", label: "Pricing"},
     {id: 7, url: "#", label: "Contact"},
+    {id: 8, url: "/bonus", label: "Bonus"},
 ]
