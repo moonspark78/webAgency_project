@@ -22,6 +22,12 @@ const Nav = () => {
             );
           })}
         </div>
+        {/* Buttons */}
+        <div className="flex items-center space-x-4">
+          <a>
+            <span></span>
+          </a>
+        </div>
       </div>
     </div>
   );
