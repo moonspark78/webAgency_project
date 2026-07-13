@@ -12,7 +12,10 @@ const Nav = () => {
         <div className="hidden lg:flex items-center space-x-10">
           {NAVLINKS.map((link) => {
             return (
-            <Link>
+            <Link
+              key={link.id}
+              href={link.url}
+            >
             </Link>
             );
           })}
