@@ -16,6 +16,7 @@ const Nav = () => {
               key={link.id}
               href={link.url}
             >
+              <p>{link.label}</p>
             </Link>
             );
           })}
