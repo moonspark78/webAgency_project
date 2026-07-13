@@ -15,7 +15,7 @@ const Nav = () => {
             <Link
               key={link.id}
               href={link.url}
-              className="text-white hover:text-yellow-200 font-semibold"
+              className="text-white hover:text-yellow-200 font-semibold transition-all duration-200"
             >
               <p>{link.label}</p>
             </Link>
