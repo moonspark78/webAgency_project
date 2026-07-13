@@ -7,7 +7,7 @@ const Nav = () => {
         {/* Logo */}
         <Logo/>
         {/* NavLinks */}
-        <div className="hidden lg:flex items-center">
+        <div className="hidden lg:flex items-center space-x-10">
 
         </div>
       </div>
