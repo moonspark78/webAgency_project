@@ -1,11 +1,15 @@
 "use client"
 
+import Nav from "./Nav"
+
 
 const ResponsiveNav = () => {
 
 
   return (
-    <div></div>
+    <div>
+      <Nav/>
+    </div>
   )
 }
 

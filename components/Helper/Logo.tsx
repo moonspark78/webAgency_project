@@ -1,4 +1,4 @@
-import React from 'react'
+
 import { CgWebsite } from 'react-icons/cg'
 
 const Logo = () => {
