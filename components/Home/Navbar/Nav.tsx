@@ -24,7 +24,10 @@ const Nav = () => {
         </div>
         {/* Buttons */}
         <div className="flex items-center space-x-4">
-          <a>
+          <a
+            href="#_"
+            className="box-border relative z-20"
+          >
             <span></span>
           </a>
         </div>
