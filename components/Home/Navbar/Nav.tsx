@@ -1,3 +1,5 @@
+import Link from 'next/link';
+import { NAVLINKS } from '../../../constant/constant';
 import Logo from '../../Helper/Logo';
 
 const Nav = () => {
@@ -8,7 +10,12 @@ const Nav = () => {
         <Logo/>
         {/* NavLinks */}
         <div className="hidden lg:flex items-center space-x-10">
-
+          {NAVLINKS.map((link) => {
+            return (
+            <Link>
+            </Link>
+            );
+          })}
         </div>
       </div>
     </div>
