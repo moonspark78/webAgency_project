@@ -4,12 +4,20 @@ import { NAVLINKS } from '../../../constant/constant';
 import Logo from '../../Helper/Logo';
 import ThemeToggler from '../../Helper/ThemeToggler';
 import { HiBars3BottomRight } from 'react-icons/hi2';
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 
 
 const Nav = () => {
 
   const [navBg, setNavBg] = useState(false);
+
+  useEffect(() => {
+    const handler = () => {
+      if (window.scrollY >= 90) setNavBg(true);
+      if (window.scrollY < 90) setNavBg(false);
+    }
+
+  }, []);
 
   return (
     <div className="transition-all duration-200 h-[12vh] z-100 fixed w-full bg-black">
