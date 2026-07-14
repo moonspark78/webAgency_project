@@ -2,6 +2,7 @@ import Link from 'next/link';
 import { NAVLINKS } from '../../../constant/constant';
 import Logo from '../../Helper/Logo';
 import ThemeToggler from '../../Helper/ThemeToggler';
+import { HiBars3BottomRight } from 'react-icons/hi2';
 
 const Nav = () => {
   return (
@@ -37,6 +38,8 @@ const Nav = () => {
           </a>
           {/* Theme Toggle */}
           <ThemeToggler/>
+          {/* Burger Menu */}
+          <HiBars3BottomRight className="text-white w-8 h-8 cursor-pointer " />
         </div>
       </div>
     </div>
