@@ -39,7 +39,7 @@ const Nav = () => {
           {/* Theme Toggle */}
           <ThemeToggler/>
           {/* Burger Menu */}
-          <HiBars3BottomRight className="text-white w-8 h-8 cursor-pointer " />
+          <HiBars3BottomRight className="text-white w-8 h-8 cursor-pointer lh:hidden" />
         </div>
       </div>
     </div>
