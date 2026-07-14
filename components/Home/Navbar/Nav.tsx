@@ -30,7 +30,9 @@ const Nav = () => {
               text-white transition-all duration-300 bg-indigo-600 rounded-md cursor-pointer group ring-offset-2 ring-1 ring-indigo-300
               ring-offset-indigo-200 hover:ring-offset-indigo-500 ease focus:outline-none"
           >
-            <span></span>
+            <span>
+              Create Account
+            </span>
           </a>
         </div>
       </div>
