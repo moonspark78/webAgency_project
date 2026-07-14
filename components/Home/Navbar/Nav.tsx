@@ -1,3 +1,4 @@
+"use client";
 import Link from 'next/link';
 import { NAVLINKS } from '../../../constant/constant';
 import Logo from '../../Helper/Logo';
