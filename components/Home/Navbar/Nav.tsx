@@ -4,8 +4,13 @@ import { NAVLINKS } from '../../../constant/constant';
 import Logo from '../../Helper/Logo';
 import ThemeToggler from '../../Helper/ThemeToggler';
 import { HiBars3BottomRight } from 'react-icons/hi2';
+import { useState } from 'react';
+
 
 const Nav = () => {
+
+  const [navBg, setNavBg] = useState(false);
+
   return (
     <div className="transition-all duration-200 h-[12vh] z-100 fixed w-full bg-black">
       <div className="flex justify-between items-center h-full w-[90%] xl:w-[80%] mx-auto">
