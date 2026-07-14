@@ -1,6 +1,7 @@
 import Link from 'next/link';
 import { NAVLINKS } from '../../../constant/constant';
 import Logo from '../../Helper/Logo';
+import ThemeToggler from '../../Helper/ThemeToggler';
 
 const Nav = () => {
   return (
@@ -34,6 +35,8 @@ const Nav = () => {
               Create Account
             </span>
           </a>
+          {/* Theme Toggle */}
+          <ThemeToggler/>
         </div>
       </div>
     </div>
