@@ -6,8 +6,9 @@ import Nav from "./Nav"
 
 
 const ResponsiveNav = () => {
-  const [showNav, setShowNav] = useState(false)
-  const openNavHandler = () => setShowNav(true)
+  const [showNav, setShowNav] = useState(false);
+  const openNavHandler = () => setShowNav(true);
+  const closeNavHandler = () => setShowNav(false);
 
 
   return (
