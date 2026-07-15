@@ -1,6 +1,7 @@
 import React from 'react'
 import { NAVLINKS } from '../../../constant/constant'
 import Link from 'next/link'
+import { CgClose } from 'react-icons/cg'
 
 const MobileNav = () => {
   return (
@@ -19,6 +20,8 @@ const MobileNav = () => {
           </Link>
           );
         })}
+        {/* Close icon */}
+        <CgClose className='absolute'/>
       </div>
     </div>
   )
