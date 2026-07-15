@@ -11,7 +11,11 @@ const MobileNav = () => {
       <div className="text-white fixed justify-center flex flex-col h-full transform transition-all duration-500 delay-300 w-[80%]
       sm:w-[60%] bg-blue-900 space-y-6 z-1050">
         {NAVLINKS.map((link) => {
-          return <Link key={link.id} href={link.url}></Link>
+          return <Link key={link.id} href={link.url}>
+            <p className=''>
+              {link.label}
+            </p>
+          </Link>
         })}
       </div>
     </div>
