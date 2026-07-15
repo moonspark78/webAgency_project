@@ -21,7 +21,7 @@ const MobileNav = () => {
           );
         })}
         {/* Close icon */}
-        <CgClose className='absolute top-[0.7rem] right-[1.4rem]'/>
+        <CgClose className='absolute top-[0.7rem] right-[1.4rem] sm:w-8 sm:h-8 w-6 h-6'/>
       </div>
     </div>
   )
